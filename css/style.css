@@ -1,3 +1,6 @@
+body {
+  font-family: 'Work Sans', sans-serif;  
+}
 /*navigation*/
 .topnav {
   overflow: hidden;
@@ -28,10 +31,25 @@
 }
 .background {
     background-image: url('../img/backgroundimage.jpeg');
-    background-position: center bottom;
+    background-position:  50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
     overflow: auto;
+    position: relative;
       
+}
+/*background*/
+p {
+    position: absolute;
+    top: 333px;
+    left: 471px;
+    color: black;  
+    font-size: 25px;   
+}
+.fa-arrow-down {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    font-size: 25px
 }

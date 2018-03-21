@@ -6,34 +6,46 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-	<script src="scripts/main.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
     <div class="header">
-         <h2>Elizabeth</h2>
-      <div class="navbar">
+      <div id="nav" class="navbar">
+        <h2>Elizabeth</h2>
         <ul>
-            <li>About</li>
-            <li>Work</li>
-            <li>Contact</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
-<script src="scripts/main.js"></script>
     <div class="second">
        <div class="introduction">
-            <h1>Elizabeth Sanchez<br>Web Designer &amp; Front End Developer</h1>
+            <h1>Elizabeth Sanchez<br> Front End Developer</h1>
         </div>
     </div>
     <div class="about">
+        <a class="about-jump" name="about"></a>
         <h3>About</h3>
-        <p>My name is Elizabeth Sanchez, I live in Dallas, TX. I am an aspiring web developer that spends a great deal of time learning how to code. I have learned HTML and CSS and plan on adding more languages to my skills. Check out my portfolio and if you're interested, check out my contact area. </p> 
+        <p>My name is Elizabeth Sanchez, I live in Dallas, TX. I am an aspiring web developer that spends a great deasl of time learning how to code. I have learned HTML and CSS and plan on asdding more languages to my skills. Check out my portfolio and if you're interested, check out my contact area. </p> 
     </div>
     <div class="work">
+       <a class="work-jump" name="work"></a>
         <h3>Work</h3>
+        <div class="image-container">
+            <img src="img/about-me.png">
+            <img src="img/karma-clone.png">
+        </div>
+    </div>
+    <div class="contact">
+       <a class="contact-jump" name="contact"></a>
+       <h3>Contact</h3>
+       <a href="https://www.google.com"><i class="icon fab fa-google-plus-square"></i></a>
+       <a href="https://www.facebook.com"><i class="icon fab fa-facebook-square"></i></a>
+       <a href="https://www.twitter.com"><i class="icon fab fa-twitter-square"></i></a>
+       
     </div>
 
-    
+    <script src="scripts/main.js"></script>
 </body>
 </html>

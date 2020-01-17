@@ -1,0 +1,29 @@
+.container-img {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.container-skills {
+    background-color: #f1e3dd;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.col {
+    text-align: center;
+}
+
